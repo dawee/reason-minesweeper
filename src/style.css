@@ -1,0 +1,36 @@
+.board {
+  display: table;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: table-row;
+  margin: 0;
+  padding: 0;
+}
+
+.cell {
+  position: relative;
+  display: table-cell;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.cell > button.initial, .cell > .case {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.case {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #333;
+}
